@@ -33,7 +33,7 @@ const News = () => {
     return (
         <div className='flex gap-1 flex-wrap justify-center p-10'>
             {newsList.map(news =>
-                <div key={news.id} className="bg-slate-100 overflow-hidden border-b-4 border-blue-500 w-1/3 m-10">
+                <div key={news.id} className="bg-slate-100 overflow-hidden border-b-4 border-blue-500 w-screen sm:w-1/3 m-10">
                     <Link href={`/news/${news.id}`}>
                         <Image
                             src={news.image} alt={news.title}

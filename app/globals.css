@@ -86,13 +86,7 @@ nav ul li a {
 .leftbar {
   left: 0;
   top: 0;
-  position: fixed;
-  padding: 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  background-color: #333;
-  width: 200px;
+  padding: 20px;
   color: #fff;
   height: 100%;
 }
